@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:paddingStart="50dp"
+    tools:ignore="RtlSymmetry">
+
+    <com.hendraanggrian.appcompat.widget.SocialTextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_message_text_out"
+        android:padding="10dp"
+        android:textSize="14sp"
+        app:socialFlags="hashtag|mention"
+        app:hashtagColor="@color/colorSocialTags"
+        app:mentionColor="@color/colorSocialTags"
+        tools:text="This is some random message text that is really long enough to collapse." />
+
+    <TextView
+        android:id="@+id/when"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textSize="10sp"
+        tools:ignore="SmallSp"
+        tools:text="on 13 Jun" />
+
+</LinearLayout>

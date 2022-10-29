@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home_button" />
+
+    <item
+        android:id="@+id/tab_discover"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/discover_button" />
+
+    <item
+        android:id="@+id/tab_noop"
+        android:icon="@drawable/ic_empty"
+        android:title="@string/empty"
+        android:enabled="false" />
+
+    <item
+        android:id="@+id/tab_inbox"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="@string/inbox_button" />
+
+    <item
+        android:id="@+id/tab_profile"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="@string/profile_button" />
+
+</menu>

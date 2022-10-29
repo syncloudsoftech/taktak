@@ -1,0 +1,39 @@
+{
+    "autoload": {
+        "files": [
+            "constants.php",
+            "helpers.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.2.0"
+        },
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "cakephp/chronos": "^2.0",
+        "catfan/medoo": "^1.7",
+        "dg/rss-php": "^1.5",
+        "embed/embed": "^3.4",
+        "facebook/graph-sdk": "^5.7",
+        "fzaninotto/faker": "^1.9",
+        "gaufrette/aws-s3-adapter": "^0.4.0",
+        "gaufrette/extras": "^0.1.0",
+        "google/apiclient": "^2.7",
+        "knplabs/gaufrette": "^0.9.0",
+        "kreait/firebase-php": "^5.8",
+        "rakit/validation": "^1.4",
+        "simplepie/simplepie": "^1.7",
+        "slim/psr7": "^1.2",
+        "slim/slim": "^4.5",
+        "tuupola/cors-middleware": "^1.2",
+        "tuupola/slim-jwt-auth": "^3.4"
+    }
+}

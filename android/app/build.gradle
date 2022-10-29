@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId 'com.syncloudsoft.taktak'
+        minSdkVersion 21
+        multiDexEnabled true
+        targetSdkVersion 33
+        vectorDrawables {
+            useSupportLibrary = true
+        }
+        versionCode 1
+        versionName '1.0'
+    }
+    namespace 'com.syncloudsoft.taktak'
+}
+
+configurations {
+    all {
+        exclude group: 'androidx.lifecycle', module: 'lifecycle-viewmodel-ktx'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.concurrent:concurrent-futures:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.paging:paging-runtime:3.1.1'
+    implementation 'androidx.preference:preference:1.2.0'
+    implementation 'androidx.work:work-runtime:2.7.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.danikula:videocache:2.7.1'
+    implementation 'com.facebook.android:facebook-android-sdk:15.0.1'
+    implementation 'com.facebook.fresco:fresco:2.6.0'
+    implementation 'com.github.arimorty:floatingsearchview:2.1.1'
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    implementation 'com.github.boybeak:GifMaker:master-SNAPSHOT'
+    implementation 'com.github.Captaincoder1111:Segmented-Progress-Bar:1.0'
+    implementation 'com.github.MasayukiSuda:GPUVideo-android:v0.1.1'
+    implementation 'com.github.MasayukiSuda:Mp4Composer-android:v0.4.0'
+    implementation 'com.github.stfalcon-studio:Chatkit:0.4.1'
+    implementation 'com.google.android.exoplayer:exoplayer:2.15.1'
+    implementation 'com.google.android.gms:play-services-ads:21.3.0'
+    implementation 'com.google.android.gms:play-services-auth:20.3.0'
+    implementation 'com.google.android.material:material:1.8.0-alpha02'
+    implementation 'com.google.firebase:firebase-analytics:21.2.0'
+    implementation 'com.google.firebase:firebase-messaging:23.1.0'
+    implementation 'com.googlecode.mp4parser:isoparser:1.1.22'
+    implementation 'com.heinrichreimersoftware:material-intro:2.0.0'
+    implementation 'com.hendraanggrian.appcompat:socialview:0.2'
+    implementation 'com.kaopiz:kprogresshud:1.2.0'
+    implementation 'com.otaliastudios:cameraview:2.7.2'
+    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'com.thefinestartist:finestwebview:1.2.7'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation 'jp.co.cyberagent.android:gpuimage:2.1.0'
+    implementation 'jp.wasabeef:recyclerview-animators:4.0.2'
+    implementation 'life.knowledge4:k4l-video-trimmer:1.0'
+    implementation 'me.everything:overscroll-decor-android:1.1.0'
+    implementation 'net.alhazmy13.MediaPicker:libary:2.4.4'
+    implementation 'nl.joery.animatedbottombar:library:1.0.8'
+    implementation 'org.greenrobot:eventbus:3.3.1'
+    implementation 'pub.devrel:easypermissions:3.0.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+}

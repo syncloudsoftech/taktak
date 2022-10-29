@@ -1,0 +1,25 @@
+$primary: #0071bf;
+$secondary: #ffcc00;
+$info: #0389ff;
+$success: #34bf49;
+$warning: #ff9933;
+$danger: #ed1b2e;
+
+$enable-gradients: true;
+$enable-shadows: true;
+
+$font-family-sans-serif: "Fira Sans", sans-serif;
+
+$font-size-base: .9rem;
+
+@import "~bootstrap/scss/bootstrap";
+
+.table-responsive .table {
+  tbody tr td,
+  tbody tr th,
+  thead tr td,
+  thead tr th {
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+}

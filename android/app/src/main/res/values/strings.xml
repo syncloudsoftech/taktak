@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TakTak</string>
+
+    <string name="confirmation_close_recording">
+        You will lose your recording (if any). Are you sure?
+    </string>
+    <string name="confirmation_start_thread">
+        You do not have any previous chat with user. Do you want to start a conversation?
+    </string>
+    <string name="confirmation_use_audio">
+        Do you want to open recorder and create video using this audio?
+    </string>
+
+    <string name="cancel_button">Cancel</string>
+    <string name="close_button">Close</string>
+    <string name="discover_button">Discover</string>
+    <string name="done_button">Done</string>
+    <string name="flash_button">Flash</string>
+    <string name="flip_button">Flip</string>
+    <string name="home_button">Home</string>
+    <string name="inbox_button">Inbox</string>
+    <string name="profile_button">Profile</string>
+    <string name="record_button">Record</string>
+    <string name="search_button">Search</string>
+    <string name="start_button">Start</string>
+    <string name="timer_button">Timer</string>
+    <string name="upload_button">Upload</string>
+    <string name="yes_button">Yes</string>
+
+    <string name="login_description">
+        Please login by clicking on any of the below services to continue using the app.
+    </string>
+    <string name="login_success">You have successfully logged in.</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="login_with_google">Login with Google</string>
+
+    <string name="mmss">00:00</string>
+
+    <string name="recorder_error_maxed_out">You have already recorded for maximum duration.</string>
+    <string name="recorder_error_no_videos">Please record your video first to continue.</string>
+
+    <string name="error_internet">Please check your internet connection.</string>
+    <string name="error_server">There was some issue with server. Please try again later.</string>
+
+    <string name="privacy_switch">Make this video private?</string>
+    <string name="comments_switch">Enable comments on this video?</string>
+
+    <string name="comment_hint">Type something here…</string>
+    <string name="description_hint">Enter a description about this video.</string>
+    <string name="message_hint">Type something here…</string>
+    <string name="search_hint">Search for user…</string>
+    <string name="sound_hint">Click to choose a song.</string>
+    <string name="timer_hint">To cancel timer before it starts, click here.</string>
+
+    <string name="clips_label">Clips</string>
+    <string name="comments_label">Comments</string>
+    <string name="bio_label">Bio</string>
+    <string name="discover_label">Discover</string>
+    <string name="edit_label">Edit</string>
+    <string name="email_label">Email</string>
+    <string name="filter_label">Filters</string>
+    <string name="inbox_label">Inbox</string>
+    <string name="name_label">Name</string>
+    <string name="logout_label">Logout</string>
+    <string name="message_label">Messages</string>
+    <string name="news_label">News</string>
+    <string name="source_label">Source</string>
+    <string name="notification_label">Notifications</string>
+    <string name="published_label">Published</string>
+    <string name="profile_label">Profile</string>
+    <string name="videos_label">Videos</string>
+    <string name="followers_label">Followers</string>
+    <string name="follow_label">Follow</string>
+    <string name="following_label">Following</string>
+    <string name="save_label">Save</string>
+    <string name="songs_label">Songs</string>
+    <string name="trimmer_label">Trim or cut</string>
+    <string name="username_label">Username</string>
+    <string name="upload_label">Upload</string>
+    <string name="unfollow_label">Unfollow</string>
+    <string name="yes_label">Yes</string>
+
+    <string name="audio_from_video">Custom audio from video.</string>
+    <string name="original_audio">User\'s original audio.</string>
+
+    <string name="notification_followed_you" formatted="false">\@%s started following you.</string>
+    <string name="notification_commented_on_video" formatted="false">\@%s commented on your video.</string>
+    <string name="notification_liked_video" formatted="false">\@%s liked your video.</string>
+    <string name="notification_else">This notification content is not supported, yet.</string>
+
+    <string name="login_required_message">You need to be logged in to perform this action.</string>
+    <string name="uploading_message">Your video will be uploaded shortly.</string>
+
+    <string name="profile_error_invalid">There were some errors in your input.</string>
+
+    <string name="progress_title">Please wait…</string>
+
+    <string name="notification_channel_id">Default</string>
+    <string name="notification_channel_name">Default</string>
+
+    <string name="empty" />
+    <string name="empty_articles">No news articles found to display.</string>
+    <string name="empty_comments">No comments found to display.</string>
+    <string name="empty_followers">No followers found to display.</string>
+    <string name="empty_followings">No followings found to display.</string>
+    <string name="empty_messages">No messages found to display.</string>
+    <string name="empty_notifications">No notifications found to display.</string>
+    <string name="empty_songs">No songs found to display.</string>
+    <string name="empty_threads">No conversations found to display.</string>
+    <string name="empty_videos">No videos found to display.</string>
+
+    <string name="share_video_title">Share video using…</string>
+    <string name="share_video_text" formatted="false">Hey there! Check out this cool video and for more, download this app https://play.google.com/store/apps/details?id=%s from Play Store.</string>
+
+    <string name="slide_1_title">Watch</string>
+    <string name="slide_1_description">Enjoy, like and comment on interesting video at home.</string>
+    <string name="slide_2_title">Create</string>
+    <string name="slide_2_description">Upload original, fun videos on our platform and become a star.</string>
+
+    <string name="greeting_morning">Good morning. Looking for recent news?</string>
+    <string name="greeting_afternoon">Good afternoon. Head to news?</string>
+    <string name="greeting_evening">Good evening. Shall I show some news?</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#0071bf</color>
+    <color name="colorPrimaryDark">#003666</color>
+    <color name="colorPrimaryTranslucent">#110071bf</color>
+    <color name="colorAccent">#ffcc00</color>
+    <color name="colorAccentDark">#ff9900</color>
+    <color name="colorAccentTranslucent">#11ffcc00</color>
+
+    <color name="colorSurface">#efefef</color>
+    <color name="colorHeader">#eeeeee</color>
+    <color name="colorLike">#e4002b</color>
+    <color name="colorProfileBadge">@color/colorPrimary</color>
+    <color name="colorProfileBadgeFill">@color/colorAccent</color>
+    <color name="colorSectionBackground">@android:color/white</color>
+    <color name="colorSectionForeground">@color/colorPrimaryDark</color>
+    <color name="colorSocialTags">@color/colorAccent</color>
+
+</resources>

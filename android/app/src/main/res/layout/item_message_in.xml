@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:paddingEnd="50dp"
+    tools:ignore="RtlSymmetry">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/photo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="10dp"
+        app:placeholderImage="@drawable/photo_placeholder"
+        app:roundAsCircle="true"
+        app:roundingBorderColor="@color/colorProfileBadge"
+        app:roundingBorderWidth="2dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/photo"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="\@username" />
+
+            <ImageView
+                android:id="@+id/verified"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="5dp"
+                app:srcCompat="@drawable/ic_baseline_verified_user_24"
+                app:tint="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <com.hendraanggrian.appcompat.widget.SocialTextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_message_text_in"
+            android:padding="10dp"
+            android:textSize="14sp"
+            app:socialFlags="hashtag|mention"
+            app:hashtagColor="@color/colorSocialTags"
+            app:mentionColor="@color/colorSocialTags"
+            tools:text="This is some random message text that is really long enough to collapse." />
+
+        <TextView
+            android:id="@+id/when"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            tools:ignore="SmallSp"
+            tools:text="on 13 Jun" />
+
+    </LinearLayout>
+
+</RelativeLayout>

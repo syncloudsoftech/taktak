@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="server_url">_____</string>
+
+    <string name="facebook_app_id">_____</string>
+    <string name="facebook_client_token">_____</string>
+    <string name="fb_login_protocol_scheme">fb_____</string>
+
+    <string name="google_client_id">_____</string>
+
+    <string name="notification_topic">default</string>
+
+    <bool name="watermark_enabled">false</bool>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_test_device_id">E1F2E8C14EC683663DD96DA25653B5A5</string>
+
+    <bool name="admob_discover_ad_enabled">true</bool>
+    <string name="admob_discover_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <bool name="admob_news_ad_enabled">true</bool>
+    <string name="admob_news_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <bool name="admob_notifications_ad_enabled">true</bool>
+    <string name="admob_notifications_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <bool name="admob_player_ad_enabled">true</bool>
+    <string name="admob_player_ad_id">ca-app-pub-3940256099942544/1033173712</string>
+    <integer name="admob_player_ad_interval">10</integer>
+
+    <bool name="admob_profile_ad_enabled">true</bool>
+    <string name="admob_profile_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>
