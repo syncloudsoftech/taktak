@@ -1,10 +1,20 @@
-<h1 align="center">taktak</h1>
+# taktak
 
-<p align="center">
-    Open-source short video app (<a href="https://www.tiktok.com/">TikTok</a> clone), complete with REST APIs written in
-    <a href="https://www.php.net/">PHP</a>, <a href="https://reactjs.org/">React.js</a> powered admin area and a native
-    <a href="https://www.android.com/">Android</a> app.
-</p>
+Open-source short video app ([TikTok](https://www.tiktok.com/) clone), complete with REST APIs written in
+[PHP](https://www.php.net/), [React.js](https://reactjs.org/) powered admin area and a native
+[Android](https://www.android.com/) app.
+
+## Features
+
+- Discover new videos
+- Explore trending videos & hashtags
+- Login with Facebook or Google
+- Record & upload videos
+- Mix/match music with your videos
+- Follow your favorite creators
+- Comment on videos
+- Real-time chat with other users
+- Latest news from Google News feed
 
 ## Screenshots
 
