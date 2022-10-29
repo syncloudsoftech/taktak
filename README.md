@@ -21,7 +21,7 @@ Open-source short video app ([TikTok](https://www.tiktok.com/) clone), complete 
 The mobile app:
 
 <a href="https://github.com/syncloudsoftech/taktak/blob/main/.github/screen-anim-app.gif">
-    <img alt="Screenshot #1" src="https://raw.githubusercontent.com/syncloudsoftech/taktak/main/.github/screen-anim-app.gif" height="320" />
+    <img alt="Screenshot #1" src="https://raw.githubusercontent.com/syncloudsoftech/taktak/main/.github/screen-anim-app.gif" height="320" style="width: auto">
 </a>
 
 The admin area:
