@@ -14,7 +14,8 @@ Open-source short video app ([TikTok](https://www.tiktok.com/) clone), complete 
 - Follow your favorite creators
 - Comment on videos
 - Real-time chat with other users
-- Latest news from Google News feed
+- Latest news via Google News
+- Push notifications
 
 ## Screenshots
 
