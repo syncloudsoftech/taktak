@@ -10,11 +10,13 @@
 
 The mobile app:
 
-[![Screenshot #2](https://raw.githubusercontent.com/syncloudsoftech/taktak/main/.github/screen-anim-app.gif)](.github)
+<a href="https://github.com/syncloudsoftech/taktak/blob/main/.github/screen-anim-app.gif">
+    <img alt="Screenshot #1" src="https://raw.githubusercontent.com/syncloudsoftech/taktak/main/.github/screen-anim-app.gif" height="320" />
+</a>
 
 The admin area:
 
-[![Screenshot #1](https://raw.githubusercontent.com/syncloudsoftech/taktak/main/.github/screen-anim-admin.gif)](.github)
+[![Screenshot #2](https://raw.githubusercontent.com/syncloudsoftech/taktak/main/.github/screen-anim-admin.gif)](.github/screen-anim-admin.gif)
 
 ## License
 
